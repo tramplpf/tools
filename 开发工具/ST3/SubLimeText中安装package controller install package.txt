@@ -1,0 +1,1 @@
+从  https://sublime.wbond.net/Package%20Control.sublime-package 下载文件保存到  Preferences --> Browser package 所在目录的上级目录，查找 package install ， 将文件保存到里面，之后，重启ST3 就可以
