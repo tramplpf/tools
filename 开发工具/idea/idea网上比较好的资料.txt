@@ -1,0 +1,21 @@
+idea的官方参考文档(比较全面且是当期最新版本对应的版本)
+https://www.jetbrains.com/help/idea/meet-intellij-idea.html 
+
+idea 指定版本的官方参考文档(下面的2018.1是我的idea的版本号，通过 HELP--About 可以查看当前idea的版本号)
+https://www.jetbrains.com/help/idea/2018.1/meet-intellij-idea.html
+
+
+可以在twitter 上面关注idea的内容
+
+
+W3Cscholl 上面的中文资料
+https://www.w3cschool.cn/intellij_idea_doc/ 
+英语好的直接看英文，英语不好的直接看中文，没必要非得看英文(中文的一些内容没有英文详细，但是也够自己用了)
+
+
+在idea 2018.1 版本中，点击 HELP--keymap reference  可以看到一个关于idea 快捷键的简练的总结
+
+
+学习idea 快捷键的几个地方：
+1. 直接网上百度
+2. 通过 idea 自带的每日建议 (HELP--Tip of the day )

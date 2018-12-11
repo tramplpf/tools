@@ -1,0 +1,120 @@
+关于idea 自己认为很有用的快捷键操作：
+
+文件导航相关：
+	查看文件路径以及在系统资源管理器中的位置(可以定位到资源管理器中的某些位置)
+		菜单Navigate 》 File Path  或者快捷键 Ctrl + Alt + F12 (快捷键会和电脑打开因特尔 核心显示控制卡面板有冲突)
+	show in explorer的功能可以直接从树形菜单中点击相应的文件或目录，然后右击选择show in explorer，打开的资源管理器就直接导航到当前选择的文件所在的位置
+
+
+编辑基础(常用的编辑器快捷方式)：
+	(自己经常用的)
+	复制一行代码				CTRL + D
+	删除一行代码				CTRL + Y
+	注释或取消注释一行代码	CTRL + slash(斜线)
+	注释代码块				CTRL + SHIFT + SLASH 
+	在当前打开文件中查找		CTRL + F
+
+
+	(自己没有用过的)
+	移动当前行代码: 			ctrl + shift + 上下移动箭头
+	打开标签之间的导航栏(切换打开的不同的tab)		ALT + RITGHT  ALT + LEFT 
+
+
+代码跳转：
+	CTRL + G 跳转到指定行数
+
+
+版本控制相关：
+	在idea 中通过图像界面来操作git的时候，会在版本控制的console面板(通过 ALT + 9 可以调取出来)中显示相关的git 命令
+	ALT + 9 显示本地所有改动过的代码
+	ctrl + k 对本地修改的文件进行commit 操作。 
+
+
+相关面板(窗口)的调取：
+	ALT + 1 	项目
+	ALT + F12	console 控制台
+	ALT + 9 	版本控制面板(包括 local change, Log, Console 三部分) 
+	ALT + 4 	运行面板
+	ALT + 5 	调试面板
+	ESCAPE(ESC)	当存在编辑文件时，光标从其他面板切换到编辑文件
+
+
+各种查找和替换：
+	CTRL + F  	 在当前文件中进行搜索
+	CTRL + R     在当前文件查找和替换
+	CTRL + SHIFT + A: 搜索所有，搜索所有的文件，或者操作等等
+
+导航：
+	CTRL + E 最近文件的列表,同时，您可以通过此操作打开当前idea显示的工具窗口。 
+	Ctrl + N 可以导航到class类，并支持复杂的表达式
+	Ctrl + shift + n 可以用于文件和文件夹的导航(查找文件和文件夹，但是不能查找target目录，)
+	Ctrl + Shift + Alt + N 可以导航到符号，并可以通过名称来查找方法或者字段(但是System.out.println 中输出的语句不能搜索)
+	Ctrl +B  导航到声明(当光标定位到某个方法的时候，第一次为导航到该方法的调用处，之后就会在方法调用处和该方法的接口定义中进行切换)
+	Ctrl + H 导航到类型层次结构 (可以查看类继承关系，子类和父类的关系，或者接口和具体实现类的关系)
+	Ctrl + ALT + U ： 显示UML 弹出窗口。 (很厉害，对于查看spring等源码的类的继承关系作用很大)
+
+
+查看文件结构：
+	ctrl + F12 查看文件的内容结构，可以查看一个类中定义了哪些方法，对应jsp页面可以查看它的布局情况。 
+
+
+如果需要在特定工具窗口(或finder/Explorer)中打开文件，则可以通过Alt + F1 中的选择操作来执行此操作。 
+
+
+快速弹出窗口:
+	快速弹出窗口有助于检查与插入符号相关的附加信息。
+	快速弹出窗口可用于编辑器中的符号，但是，他们也可以通过相同的快捷键方式用于任何其他列表中的项目。 
+
+重构：
+	要撤销上一次重构,请将焦点切换到项目工具窗口，然后按 Ctrl + Z 
+	在应用重构之前，不要费心选择任何东西。 IntelliJ idea 足够聪明，可以弄清楚你要重构哪些声明。 只有在有可能做出选择情况下才要求确认。 
+		重命名	Shift+F6
+		提取变量	Ctrl+Alt+V
+		提取字段	Ctrl+Alt+F
+		提取常数	Ctrl+Alt+C
+		提取方法	Ctrl+Alt+M
+		提取参数	Ctrl+Alt+P
+		内联	Ctrl+Alt+N
+		复制	F5
+		移动	F6
+		重构这个	Ctrl+Shift+Alt+T
+
+
+代码样式和格式：
+	重新格式化代码		Ctrl + Alt + L 
+	自动缩进行			Ctrl + Alt + I   (测试不成功))
+	优化导入				Ctrl + ALT + O 
+
+调试和运行：
+	运行   shift + F10 
+	调试   shift + F9
+	在调试模式下，可以使用Evaluate 表达式工具来评估任何表达式，可通过按Alt + F8 进行访问，该工具以与编辑器相同的方式提供代码完成，因此可以轻松输入任何表达式。 
+
+
+未分类：
+	ALT + RIGHT/ alt + left  	在打开的标签之间导航
+	CTRL + ALT + LEFT / CTRL + ALT + RIGHT 	后退/前进导航
+	ALT + INSERT 创建新的，根据当前光标所在位置的不同，有不同的操作方式，当光标执行项目的时候，会提示创建新的文件，类等 。 当光标定位在一个java类的时候，会提示创建各种方法等。 
+	CTRL + ALT + T 	 围绕， 当光标在某端代码的时候，会弹出if，try等语句来将改代码包围
+
+	要扩展基于语法的选择，请按 Ctrl + W； 要缩小它，请按 Ctrl + Shift + W
+
+
+
+
+IntelliJ IDEA 通过 Ctrl+Space 提供 Basic completion，通过 Ctrl+Shift+Space 提供Smart completion，和通过 Ctrl+Shift+Enter 提供 Statement completion。
+
+
+
+
+不懂的快捷键：
+	下一个事件： 		F3
+	上一个事件：		Shift + F3
+	强调符号的用法：	CTRL + F7 
+	IntelliJ IDEA 可以一次选择多个代码。您可以通过 Alt + J 选择/取消选择任何代码，或通过单击代码选择并按 Shift + Alt + J。
+	快速弹出窗口的一些操作：
+		行为			快捷方式
+		文档			Ctrl+Q
+		快速定义		Ctrl + Shift + I 
+		显示用法		Ctrl + ALT + f7 
+		显示实现		Ctrl + ALt + b 

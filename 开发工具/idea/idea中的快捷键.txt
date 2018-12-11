@@ -15,5 +15,11 @@ IDEA 中的快捷键
 
 
 在 idea 里的每个操作，都可以看做是一个action， 我们可以使用ctrl + shift + a  来输入我们想要的操作。 比如说，可以先使用 ctrl + shift + a 快捷键， 然后输入 Rebuild project 并回车，就可以执行重新编译项目。 
+
+
+idea 设置打开文件显示的tab 的个数：
+在菜单中找到了调整方法，以Mac为例，调整路径为 “Intellij IDEA” -> "Perferences..." -> "Editor" -> "Editor Tabs"，调整 Tab Closing Policy 的 Tab Limit，默认是10个，修改为你需要的个数即可
+将限制设置为1个，任何通过 Ctrl + E 来实现文件之间的切换。 (编写一个功能的时候，涉及到的文件不应该太多，太多，说明自己设计的代码有问题。)
+
 	
 
