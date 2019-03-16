@@ -1,0 +1,9 @@
+Rainbow Brackets-5.12   不同层次的括号显示不同的颜色
+mybatis log plugin 		把mybatis 输入的sql日志还原成完成的sql语句 
+
+GsonFormat				根据json字符串自动生成java bean 对象
+	鼠标定位要填充的文件里面
+	Code--Gernrate--> GsonFormat  在弹出的内容里面输入json字符串就可以了。 
+
+RestfulToolkit（没法使用）
+	接口自测工具(模拟http请求) 

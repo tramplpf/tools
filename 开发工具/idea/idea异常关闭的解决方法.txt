@@ -1,0 +1,7 @@
+1. 查找关联的进程
+netstat  -ano|findstr 1100
+
+2. 通过端口号查找 pid 
+tashlist | findstr pid 
+
+3. taskkill -f -t -im java.exe （只执行这一步就可以）

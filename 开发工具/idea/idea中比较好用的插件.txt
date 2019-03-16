@@ -1,0 +1,8 @@
+CheckStyle-IDEA-5.23.0
+custom-postfix-templates
+FindBugs-IDEA-1.0.1
+googleCodeStyle
+GsonFormat
+IdeaVim-0.49
+Rainbow Brackets-5.12
+RestfulToolkit-2.0.7
