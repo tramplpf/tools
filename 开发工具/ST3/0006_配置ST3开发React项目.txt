@@ -1,0 +1,20 @@
+配置ST3开发React 项目
+需要安装的插件：
+	Jsfmt: 格式化js文件。
+
+babel: 转换编译器，能够将ES6转换成可以在浏览器中运行的代码。 
+配置：
+
+	打开.js, .jsx 后缀的文件;
+	打开菜单view， Syntax -> Open all with current extension as... -> Babel -> JavaScript (Babel)，选择babel为默认 javascript 打开syntax
+
+eslint： 代码审查 
+
+sublimeLinter-jsxhint: 常用于编写默认react语法的JSX 代码审查，实时提示语法错误, 帮助快速定位错误点.
+
+ JsFormat 格式化 js 代码
+
+
+
+相关的参考资料
+https://segmentfault.com/a/1190000003698071

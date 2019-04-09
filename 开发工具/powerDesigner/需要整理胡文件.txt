@@ -1,7 +1,0 @@
-   new file:   开发工具/powerDesigner/Documentation_16.5/index.htm
-        new file:   开发工具/powerDesigner/Documentation_16.5/videos.htm
-        new file:   开发工具/powerDesigner/PD使用技巧.txt
-        new file:   开发工具/powerDesigner/jdbc连接oracle数据库的地址.txt
-        new file:   开发工具/powerDesigner/powerdesigner逆向生产PDM
-        new file:   开发工具/powerDesigner/powerdesigner逆向生产PDM.bak
-        new file:   开发工具/脚本/快速打开指定目录.bat

@@ -1,0 +1,2 @@
+从git@github.com:liuchuo/channel_v3.json.git  下载channel_v3.json 
+
