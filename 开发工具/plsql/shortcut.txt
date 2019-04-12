@@ -1,0 +1,15 @@
+sf = select * from
+sfd= select * from dual;
+scf = select count(1) from
+sa = select a.*,a.rowid from a
+ts = select a.orderno,a.clientorderno from mlos_ts_order a where a.clientordorno='' cache = select a.clientorderno,a.status,a.pickupflag from mlos_cm_ordercache a where a.clientordorno='' trs = trunc(sysdate) up = update set de = delete from gp = group by sd = select * from dual; ds0=to_date(' 00:00:00','yyyy-mm-dd hh24:mi:ss') ds9=to_date(' 23:59:59','yyyy-mm-dd hh24:mi:ss') fu=for update
+td=to_date(' ','yyyy-mm-dd hh24:mi:ss')
+tds=to_date(' 00:00:00','yyyy-mm-dd hh24:mi:ss')
+tde=to_date(' 23:59:59','yyyy-mm-dd hh24:mi:ss')
+
+wh = WHERE
+be = BETWEEN AND
+li = LIKE '%%'
+ob = ORDER BY
+corp = CREATE OR REPLACE PROCEDURE
+
