@@ -1,2 +1,0 @@
-idea 为实体生成UUID 
-File--Settings---Editor---Inspections ---搜索 serialVersionUID

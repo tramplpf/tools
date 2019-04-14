@@ -1,4 +1,9 @@
 # ST3 中好用的插件
+自己经常使用的：
+	PlainTasks
+
+
+
 ConvertToUTF8 实现编码的转换 
 SublimeCodeIntel 代码提示插件，可以帮你补全代码，快速方便书写。
 Git git管理, 该插件基本实现了egit的所有功能
