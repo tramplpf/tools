@@ -1,0 +1,33 @@
+学习使用emacs：
+
+打开emacs 之后，Ctrl + h， 然后键入 t， 阅读emacs自带的新手教程。 
+
+
+
+
+Emacs 配置文档常见的文件名有两个， .emacs, init.el , 但是推荐使用 init.el 来配置emacs的配置信息，而不是.emacs ,这样可以保证配置文件的结构化和模块化， 方便维护。 
+	安装emacs配置文件的方法
+		方法一： 下载/编写一个 *.el 文件， 然后在 init.el 文件中load 这个文件。 
+		(emacs 24 以上的版本都集成了一个 插件管理器elpa，可以方便的通过M-x list-packages 来安装插件。 不过，通过elpa 安装的插件通常仍需要你手动来加载和配置)
+		elpa 要求你自己完成加载和配置的步骤。 一般来说，常见的载入命令有， require， load, autoload等。 而所谓的配置就是初始一些参数
+		整个emacs的启动都可以概括为一句话： 加载一系列脚本。配置emacs 归根到底是配置各种各样的脚本
+		
+		加载的目的在于定义变量和函数以供使用。 任何插件，只有先被加载才能被使用。 而且通常，你都希望先加载一个插件，再来配置它。 
+		
+
+Emacs查找配置文件的顺序， 先在 ~ 目录下，寻找 .emacs 文件，如果找到，则读取其中的配置信息，否则查找 ~/.emacs.d/init.el. 知道了Emacs的配置信息的读取顺序，我们就可以自己自定义这些配置信息了。 
+
+
+
+
+
+
+
+
+
+
+
+emacs的参考文档：
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Find-Init.html   emacs 加载配置文件的顺序
+
+

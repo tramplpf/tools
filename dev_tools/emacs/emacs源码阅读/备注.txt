@@ -1,0 +1,3 @@
+阅读的emacs 的源代码是 emacs25.3 这个版本，相关的代码是从emacs 的gun 官网上找到的，在github 上面找到的代码，没有configure 这个配置文件，无法安装。 
+
+

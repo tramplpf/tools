@@ -1,0 +1,11 @@
+===emacs 利用自带的pacage repo 完成包管理 ， 在 .emacs 配置文件中
+(when (>= emacs-major-version 24)  
+  (require 'package)  
+  (add-to-list  
+   'package-archives  
+   '("melpa" . "http://melpa.org/packages/")  
+   t)  
+  (package-initialize))  
+
+
+  

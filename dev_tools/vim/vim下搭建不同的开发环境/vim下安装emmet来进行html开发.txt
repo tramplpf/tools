@@ -1,0 +1,13 @@
+vim 环境下可以使用 emmet-vim 来编写html页面
+
+安装： 
+使用 pathogen.vim 安装 
+cd ~/.vim/bundle
+git clone https://github.com/mattn/emmet-vim.git
+
+之后，在vim编辑器中在编写html 文件的是，就可以使用emmet进快速的网页开发。 
+
+注意：
+在vim 中，使用emmet-vim 进行html 页面的开发的时候，，有一点和window下的sublime Text 等编辑器有所不同，在win下，是通过 tab 来完成代码的补全的，但是在linux下的vim下，是通过
+ctrl + y, 然后加上 逗号(,)  来完成代码补全的。 
+

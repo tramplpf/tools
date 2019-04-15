@@ -1,0 +1,10 @@
+在 emacs 中安装 w3m 软件。
+
+1.  更新centos 源为阿里云源 
+	mv /etc/yum.repos.d/CentOS-Base.repo CentOS-Base.repo.bak  
+	wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/epel-7.repo  
+	yum clean all  
+	yum  makecache  
+
+2. 安装 w3m 和 w3m-img 
+	yum install w3m w3m-img -y

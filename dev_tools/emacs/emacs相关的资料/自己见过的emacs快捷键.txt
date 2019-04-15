@@ -1,0 +1,151 @@
+emacs中自己见过的快捷键：
+	M-x mode_name : 通过命令来指定模式
+	
+
+
+======================================================================	
+	从该文档中摘录常用的帮助功能如下：
+
+快捷键	命令	说明
+C-h ?	 	关于帮助系统的帮助，可以通过SPC和DEL键滚动，通过ESC退出
+C-h t	M-x help-with-tutorial	进入 《Emacs 快速指南》
+C-h r	M-x info-emacs-manual	Emacs使用手册
+C-h i	M-x info	《Emacs说明》
+C-h a	M-x apropos-command	搜索命令》
+C-h v	M-x describe-variable	查看变量说明》
+C-h f	M-x describe-function	查看函数说明》
+C-h m	M-x describe-mode	查看当前mode的相关文档，包含mode中的命令、快捷键等》
+C-h k KEYS	M-x describe-key KEYS	查看快捷键对应的命令及其简要说明，比如C-h k C-x C-c，会告诉你C-x C-c是做什么的》
+C-h c KEYS	M-x describe-key-briefly	查看键绑定说明》
+C-h w	M-x where-is	查看某个命令对应的快捷键》
+C-h b	M-x describe-bindings	查看当前buffer所有的快捷键列表》
+KEYS C-h	 	查看当前buffer中以某个快捷键序列开头的快捷键列表，比如C-c C-h》
+ 	M-x apropos	查看匹配某个关键词的任何东西，如函数，变量，命令，模式等》
+
+1. C-h t 《Emacs快速指南》是迅速上手最好的文档。
+
+2. 使用帮助时，可能会分割出其它Frame，可以通过 C-x 1 关闭。
+======================================================================
+
+
+作为一个编辑器，需要具备的基本的编辑功能：
+	文件操作
+	光标定位
+	输入删除
+	复制粘
+	撤销重做 
+
+文件操作：
+		文件操作的快捷键都集中在 C-x 菜单中：
+		
+		快捷键  		命令 							说明
+		C-x C-f 	   find-file 						打开文件或目录
+		C-x C-c 	   save-buffers-kill-emacs 			保存退出
+		C-x C-z			iconify-or-deiconify-frame		挂起(最小化)
+		C-x C-r			find-file-read-only				以只读模式打开
+		C-x i  			insert-file 					 插入文件 
+		C-x C-s 		save-buffer 					保存文件 
+		C-x s 			save-some-buffers 				保存所有未保存的缓冲区
+		C-x C-w 		write-file 						另存为文件 
+		C-x RET r       revert-buffer-with-coding-system  以指定编码读取文件
+		C-x RET f 	  ?????
+		C-x d 			dired 							进入目录列表模式 
+		C-x C-d 		list-directory 					获取文件列表(简洁)
+光标定位：	
+	   向前 		向后		向下	向上
+
+字符：	C-f 		C-b 		C-n		C-p 
+单词：  M-f 		M-b 
+句子： M-a 			M-e
+行： C-a  			c-e 
+段落： M-{   M=} 
+缓冲区： M-<   M-> 
+
+其它：
+	M-g M-g (goto-line)   跳转到某行 
+	M-x (goto-char)   跳转到字符位置
+	C-M-l (reposition-window)  将当前行卷至页面中部
+	C-l    recenter    刷新页面， 将当前行卷至页面中部。 (使用数字参数指定行)
+	M-r M-x  move-to-window-line 移动光标至页面中间的行(使用数字参数指定行)
+	
+输入删除：
+	输入十分简单，在缓冲区直接敲键盘就OK了，(emacs中的模式不会影响字符的键入)
+	
+	删除：
+		向前	向后
+字符    C-d 	Del 
+单词：	M-d    	m-del 
+行： 	C-k (删除至行尾)
+整行：  C-S-backspace 
+按表达式删除:  C-M-K 
+区块： C-w    （飞： 这个应该需要提前选中区块）
+删除连续的空格： M-x delete-horizontal-space 
+
+注：
+1. 在PC中，用Bacespace 代替DEL 
+2. 单词，行，区块 的删除是kill，相当于剪切，会被放入kill-ring， 字符以及空格的删除是 delete 
+
+复制粘贴：
+	复制前要先选择: C-@ 开始区块选择，然后移动光标， 选中的区域会高亮
+	剪切 ： 前面删除的部分包含了一部分的剪切操作，对区块的剪切用C-w 
+	复制： 区块复制用M-w， 至于复制1行， 复制一个单词之类的功能，自己想办法， ---飞： 控制选中区块的范围就可以了吧， 将一行， 单词，作为区块
+	粘贴： C-y : 粘贴kill-ring 堆栈的最后一次的内容 
+	C-y 之后可以继续M-y(????), 对kill-ring 中的内容一次召回 
+
+撤销重做：
+	撤销： C-/ (每插入20 个字符，视为一个undo 单位)   --- 也就是很难精确的控制撤销的范围。 
+	重做： C-/ 之后，一次输入 C-g C-/ 就可以redo 
+	
+
+	
+缓冲区，窗口相关的命令：
+	飞： 一个缓冲区可以在多个窗口中显示， 当使用C-x k 来关闭某个缓冲区 的时候，显示该缓冲区的所有窗口都会关闭。
+
+窗口相关:
+	C-x  0: 关闭当前窗口
+	C-x  1： 关闭当前窗口以外的其他窗口 
+	C-x  2： 水平分割窗口
+	C-x  3：垂直分割窗口 
+	C-x  4 0：关闭当前窗口和缓冲 
+	C-x  4 b: 在另一个窗口打开缓冲 (如果当前只有一个窗口将分割一个新窗口)
+	C-x  4 f: 在另一个窗口打开文件(如果当前只有一个窗口将分割一个新窗口)
+	C-X O (字母O):  在多个窗口中循环切换 
+	
+	
+
+	
+缓冲区相关：
+	C-x b: 选择缓冲区。 命令输入后，再输入缓冲区名称，可以使用tab 补全 
+	C-x  k: 关闭 关闭当前缓冲区。 
+
+	
+
+	
+	
+	
+	
+更有效的编辑：
+	为了让编辑更有效，还需要了解：
+		窗口管理
+		缓冲区管理
+		搜索和替换
+		批量处理 
+		’
+	
+	
+
+
+
+
+		1. 通过 M-x 可以在后面输入命令命令来调用某个命令 
+		2. 通过 C-g 可以退出某个命令的执行 
+		
+
+
+
+
+
+自己无意间碰触到的快捷键：
+	C-d ： 使用gdb 来调试 emacs ，之后不知道该怎么正确的退调试模式，只能退出整个文件的编辑。
+	
+	

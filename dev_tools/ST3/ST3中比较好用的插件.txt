@@ -1,0 +1,39 @@
+# ST3 中好用的插件
+自己经常使用的：
+	PlainTasks
+
+
+
+ConvertToUTF8 实现编码的转换 
+SublimeCodeIntel 代码提示插件，可以帮你补全代码，快速方便书写。
+Git git管理, 该插件基本实现了egit的所有功能
+	使用方法：https://github.com/kemayo/sublime-text-git/wiki
+	
+
+# Java开发
+DocBlockr  生成优美的注释 
+	简介：标准的注释，包括函数名、参数、返回值等，并以多行显示，手动写比较麻烦。使用：输入/*、/**然后回车
+	
+
+
+
+# 前端开发相关的插件：
+Emmet	快速编写html代码
+jQuery	编写jQuery代码的时候给出提示
+JSFormat 格式化JavaScript代码(主要用于处理那些格式化后的代码)
+
+View In Browser: 在浏览器中打开Html文件
+	设置快捷键
+	菜单栏Preferences->Key Bindings-User），打开Default (Windows).sublime-keymap文件编辑，或者F:\ProgramFiles\Sublime Text 3\Data\Packages\User编辑Default (Windows).sublime-keymap
+	输入如下内容：
+		[    { "keys": ["ctrl+alt+f"], "command": "open_in_browser" },]
+
+LESS	LESS高亮插件
+Less2CSS	编译Less  检测到文件改动的时候，编译保存为.css 文件 
+	打开 .less 文件，编写代码保存即可看到同时生成 .css 的文件， 如果没有则需要安装node。  不推荐这种方法编译，要么用koala，要么用grunt 编译。 
+Alignment： 
+	功能：”=”号对齐
+	简介：变量定义太多，长短不一，可一键对齐
+	使用：默认快捷键Ctrl+Alt+A和QQ截屏冲突，可设置其他快捷键如：Ctrl+Shift+Alt+A；先选择要对齐的文本
+
+Babel：Babel 是一个转换编译器，它能将ES6转换为可以在浏览器中运行的代码。 

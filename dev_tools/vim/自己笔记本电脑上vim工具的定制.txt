@@ -1,0 +1,4 @@
+目标： 
+使用vim 来快速的开发javascript， java， html， css 等。 
+
+

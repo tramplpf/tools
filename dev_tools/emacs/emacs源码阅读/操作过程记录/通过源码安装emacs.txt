@@ -1,0 +1,42 @@
+首先强调： 这里的源代码是通过github上面下载的emacs 25.3 这个版本的源代码。 
+
+
+
+
+在linux上面执行步骤：
+	1. 安装必要的软件。 (这两个软件是通过执行 make install 的时候，会提示你，该怎么需要安装哪些必须的依赖软件) 
+		yum install -y autoconf  automake 
+	2. 之后，执行 ./configure --without-makeinfo
+	但是提示，缺少下面的库文件。 
+		libtinfo, libncurses, libterminfo, libtermcap, libcurses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============
+在通过源码安装emacs 的时候，会提示缺少 makeinf 这个工具（linux下用于生成manual 的工具），此时可以通过  yum install texi2html texinfo  命令来进行安装， 之后通过which makeinfo 可以找到这个命令所在的位置。 
+
+
+
+执行 .configure 命令的时候，会提示缺少libinfo, libncurses, libterminfo,libtermcap,libcurses 这些库文件，这种情况下，可以通过安装
+ncurses-devel 软件来引入这些库文件 
+	yum install -y ncurses-devel  
+
+
+
+
+
+
