@@ -1,0 +1,3 @@
+keyfreq： 统计快捷键的使用频率
+	https://github.com/dacap/keyfreq
+
