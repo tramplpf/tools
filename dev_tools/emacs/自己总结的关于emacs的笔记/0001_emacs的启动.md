@@ -4,7 +4,7 @@
 	$ > emacs 
 
 * 以文字模式启动emacs 
-	$ > emacs -nw 
+	$ > emacs -nw    （no window）
 
 * 快速启动emacs(不解析 .emacs文件),并以文字模式启动
 	$ > emacs -Q -nw 

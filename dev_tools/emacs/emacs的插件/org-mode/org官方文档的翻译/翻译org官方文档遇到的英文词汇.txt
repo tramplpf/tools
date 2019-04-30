@@ -1,0 +1,40 @@
+翻译org官方文档遇到的英文词汇
+Feedback 反馈
+Headlines	标题
+Motion		运动，动作
+Sparse		稀疏,疏散
+Plain		朴素,简谱
+Alignment	对准
+Formula		式
+Hyperlinks	超链接
+Faces		面,面对
+Breaking Down	打破
+idle		空闲，懒惰
+Estimates	估计
+Effort		功夫
+Effort Estimates 	努力估计
+Refile		重新提交
+expansion	扩展
+Agenda		应办事项
+specifications	规格
+Paragraphs 段落
+Emphasis	重点
+Monospace	等宽字体
+subscripts and superscripts 下标和上标
+Symbols		符号
+Literal		文字
+Captions	标题
+Horizontal rule	横向规则
+preamble and postamble	序言和后同步
+Quoting		引用
+Extracting	提取
+integral	积分，完整的，整体的
+come up		上来
+compatibility	兼容
+reserved	保留的
+subscribe	订阅
+sufficient	足够
+hit		击中
+mentioned	提到
+conventions		公约
+
