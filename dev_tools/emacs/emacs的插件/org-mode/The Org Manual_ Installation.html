@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0044)https://orgmode.org/manual/Installation.html -->
+<html><!-- This manual is for Org version 9.2.
+
+Copyright (C) 2004-2019  Free Software Foundation, Inc.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with the Front-Cover Texts being "A GNU Manual,"
+and with the Back-Cover Texts as in (a) below.  A copy of the license
+is included in the section entitled "GNU Free Documentation License."
+
+(a) The FSF's Back-Cover Text is: "You have the freedom to copy and
+modify this GNU manual."
+ --><!-- Created by GNU Texinfo 6.3, http://www.gnu.org/software/texinfo/ --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Org Manual: Installation</title>
+
+<meta name="description" content="The Org Manual: Installation">
+<meta name="keywords" content="The Org Manual: Installation">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+
+<link href="https://orgmode.org/manual/index.html#Top" rel="start" title="Top">
+<link href="https://orgmode.org/manual/Main-Index.html#Main-Index" rel="index" title="Main Index">
+<link href="https://orgmode.org/manual/index.html#SEC_Contents" rel="contents" title="Table of Contents">
+<link href="https://orgmode.org/manual/Introduction.html#Introduction" rel="up" title="Introduction">
+<link href="https://orgmode.org/manual/Activation.html#Activation" rel="next" title="Activation">
+<link href="https://orgmode.org/manual/Summary.html#Summary" rel="prev" title="Summary">
+<style type="text/css">
+<!--
+a.summary-letter {text-decoration: none}
+blockquote.indentedblock {margin-right: 0em}
+blockquote.smallindentedblock {margin-right: 0em; font-size: smaller}
+blockquote.smallquotation {font-size: smaller}
+div.display {margin-left: 3.2em}
+div.example {margin-left: 3.2em}
+div.lisp {margin-left: 3.2em}
+div.smalldisplay {margin-left: 3.2em}
+div.smallexample {margin-left: 3.2em}
+div.smalllisp {margin-left: 3.2em}
+kbd {font-style: oblique}
+pre.display {font-family: inherit}
+pre.format {font-family: inherit}
+pre.menu-comment {font-family: serif}
+pre.menu-preformatted {font-family: serif}
+pre.smalldisplay {font-family: inherit; font-size: smaller}
+pre.smallexample {font-size: smaller}
+pre.smallformat {font-family: inherit; font-size: smaller}
+pre.smalllisp {font-size: smaller}
+span.nolinebreak {white-space: nowrap}
+span.roman {font-family: initial; font-weight: normal}
+span.sansserif {font-family: sans-serif; font-weight: normal}
+ul.no-bullet {list-style: none}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<a name="Installation"></a>
+<div class="header">
+<p>
+Next: <a href="https://orgmode.org/manual/Activation.html#Activation" accesskey="n" rel="next">Activation</a>, Previous: <a href="https://orgmode.org/manual/Summary.html#Summary" accesskey="p" rel="prev">Summary</a>, Up: <a href="https://orgmode.org/manual/Introduction.html#Introduction" accesskey="u" rel="up">Introduction</a> &nbsp; [<a href="https://orgmode.org/manual/index.html#SEC_Contents" title="Table of contents" rel="contents">Contents</a>][<a href="https://orgmode.org/manual/Main-Index.html#Main-Index" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<a name="Installation-1"></a>
+<h3 class="section">1.2 Installation</h3>
+
+<a name="index-installation"></a>
+
+<p>Org is included in all recent distributions of GNU Emacs, so you
+probably do not need to install it.  Most users will simply activate
+Org and begin exploring its many features.
+</p>
+<p>If, for one reason or another, you want to install Org on top of this
+pre-packaged version, there are three ways to do it:
+</p>
+<ul>
+<li> by using the Emacs package system;
+</li><li> by downloading Org as an archive; or
+</li><li> by using Org’s git repository.
+</li></ul>
+
+<p>We <strong>strongly recommend</strong> sticking to a single installation method.
+</p>
+<a name="Using-Emacs-packaging-system"></a><a name="Using-Emacs-packaging-system-1"></a>
+<h4 class="subheading">Using Emacs packaging system</h4>
+
+<p>Recent Emacs distributions include a packaging system which lets you
+install Elisp libraries.  You can install Org with <kbd>M-x package-install <span class="key">RET</span> org</kbd>.
+</p>
+<blockquote>
+<p><b>Important:</b> You need to do this in a session where no ‘<samp>.org</samp>’ file has been
+visited, i.e., where no Org built-in function have been loaded.
+Otherwise autoload Org functions will mess up the installation.
+</p>
+</blockquote>
+
+<p>If you want to use Org’s package repository, check out the <a href="https://orgmode.org/elpa.html">Org ELPA
+page</a>.
+</p>
+<a name="Downloading-Org-as-an-archive"></a><a name="Downloading-Org-as-an-archive-1"></a>
+<h4 class="subheading">Downloading Org as an archive</h4>
+
+<p>You can download Org latest release from <a href="https://orgmode.org/">Org’s website</a>.  In this case,
+make sure you set the load-path correctly in your Emacs init file:
+</p>
+<div class="lisp">
+<pre class="lisp">(add-to-list 'load-path "~/path/to/orgdir/lisp")
+</pre></div>
+
+<p>The downloaded archive contains contributed libraries that are not
+included in Emacs.  If you want to use them, add the ‘<samp>contrib/</samp>’
+directory to your load-path:
+</p>
+<div class="lisp">
+<pre class="lisp">(add-to-list 'load-path "~/path/to/orgdir/contrib/lisp" t)
+</pre></div>
+
+<p>Optionally, you can compile the files and/or install them in your
+system.  Run ‘<samp>make help</samp>’ to list compilation and installation options.
+</p>
+<a name="Using-Org_0027s-git-repository"></a><a name="Using-Org_0027s-git-repository-1"></a>
+<h4 class="subheading">Using Org’s git repository</h4>
+
+<p>You can clone Org’s repository and install Org like this:
+</p>
+<div class="example">
+<pre class="example">$ cd ~/src/
+$ git clone git@code.orgmode.org:bzg/org-mode.git
+$ cd org-mode/
+$ make autoloads
+</pre></div>
+
+<p>Note that in this case, <code>make autoloads</code> is mandatory: it defines
+Org’s version in ‘<samp>org-version.el</samp>’ and Org’s autoloads in
+‘<samp>org-loaddefs.el</samp>’.
+</p>
+<p>Remember to add the correct load-path as described in the method
+above.
+</p>
+<p>You can also compile with ‘<samp>make</samp>’, generate the documentation with
+‘<samp>make doc</samp>’, create a local configuration with ‘<samp>make config</samp>’ and
+install Org with ‘<samp>make install</samp>’.  Please run ‘<samp>make help</samp>’ to get the
+list of compilation/installation options.
+</p>
+<p>For more detailed explanations on Org’s build system, please check the
+Org Build System page on <a href="https://orgmode.org/worg/dev/org-build-system.html">Worg</a>.
+</p>
+<hr>
+<div class="header">
+<p>
+Next: <a href="https://orgmode.org/manual/Activation.html#Activation" accesskey="n" rel="next">Activation</a>, Previous: <a href="https://orgmode.org/manual/Summary.html#Summary" accesskey="p" rel="prev">Summary</a>, Up: <a href="https://orgmode.org/manual/Introduction.html#Introduction" accesskey="u" rel="up">Introduction</a> &nbsp; [<a href="https://orgmode.org/manual/index.html#SEC_Contents" title="Table of contents" rel="contents">Contents</a>][<a href="https://orgmode.org/manual/Main-Index.html#Main-Index" title="Index" rel="index">Index</a>]</p>
+</div>
+
+
+
+
+
+</body></html>
