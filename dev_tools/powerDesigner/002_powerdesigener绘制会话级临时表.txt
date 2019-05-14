@@ -1,0 +1,3 @@
+在 Physical Options(Common) 中，选择On commit 的取值为 preserve rows 
+
+在General 面板中，选择你Type的取值为Temporary 

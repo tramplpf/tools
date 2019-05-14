@@ -37,3 +37,9 @@ Alignment：
 	使用：默认快捷键Ctrl+Alt+A和QQ截屏冲突，可设置其他快捷键如：Ctrl+Shift+Alt+A；先选择要对齐的文本
 
 Babel：Babel 是一个转换编译器，它能将ES6转换为可以在浏览器中运行的代码。 
+
+
+
+
+格式化json：  pretty json   通过 ctrl + alt + j 对json 字符串进行格式化
+https://github.com/dzhibas/SublimePrettyJson
