@@ -21,5 +21,7 @@ idea 设置打开文件显示的tab 的个数：
 在菜单中找到了调整方法，以Mac为例，调整路径为 “Intellij IDEA” -> "Perferences..." -> "Editor" -> "Editor Tabs"，调整 Tab Closing Policy 的 Tab Limit，默认是10个，修改为你需要的个数即可
 将限制设置为1个，任何通过 Ctrl + E 来实现文件之间的切换。 (编写一个功能的时候，涉及到的文件不应该太多，太多，说明自己设计的代码有问题。)
 
+
+在service中调用一个mapepr,通过mapper.new方法名(). 通过alt + enter，可以在对于的mappper里面生成相关的方法；
 	
 
