@@ -1,0 +1,5 @@
+1. 首先打开telnet 客户端和服务端。 在开发过程中经常需要查看端口的启动情况。 
+
+2. 配置wmic.exe 
+	为windows的PATH 添加路径 C:\Windows\System32\wbem
+
