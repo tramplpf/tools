@@ -1,6 +1,0 @@
-plsql 优化的地方：
-
-1. PLSQL 固定页面布局 
-解决方案： 在菜单栏： 工具--首选项--用户界面---选项--勾选 “自动保存桌面”
-
-参考文档：https://blog.csdn.net/xuanlv_haoshao/article/details/80419416
