@@ -1,1 +1,2 @@
-右键右侧表格的空白处，选择 display preference, 在弹出的面板中选择table，勾选其中的stereoty 以及comments 可以生成对应的视图。 
+右键右侧表格的空白处，选择 display preference, 在弹出的面板中选择table，
+勾选其中的stereoty 以及comments 可以生成对应的视图。 

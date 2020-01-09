@@ -1,0 +1,1 @@
+将 C:\Windows\winsxs\amd64_microsoft-windows-t..platform-comruntime_31bf3856ad364e35_6.1.7601.23226_none_2937259366d31923 目录下的 InkObj.dll 文件保存到  C:\Windows\System32\cmd.exe 目录下， 打开cnd ，执行 regsvr32 inkobj.dll 命令，之后，可以在命令行中，通过 stkkynot 命令打开win7 自带的便签。 
