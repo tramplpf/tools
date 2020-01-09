@@ -43,3 +43,12 @@ Babel：Babel 是一个转换编译器，它能将ES6转换为可以在浏览器
 
 格式化json：  pretty json   通过 ctrl + alt + j 对json 字符串进行格式化
 https://github.com/dzhibas/SublimePrettyJson
+
+格式化sql：
+SublimeFormatSQL 
+
+utf8 中文乱码的问题
+https://github.com/seanliang/ConvertToUTF8.git
+ 
+
+格式化xml文件的插件：indent xml
