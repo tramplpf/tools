@@ -1,0 +1,1 @@
+使用EA客户绘制的活动图包括： Activity Diagram， Partioned Activity Diagram， Sub-Activity Diagram ， Interruptible Activity Regions 
