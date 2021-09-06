@@ -16,3 +16,6 @@ save actions
 
 google-java-format 
 	启用google风格代码
+
+GenerateAllSetter  帮助我们生成一个对象的所有setter方法
+
