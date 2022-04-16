@@ -60,6 +60,16 @@ alias studyemacs='emacs /Users/lpf/github/tools/dev_tools/emacs/studyemacs.org'
 sqlite3 $(find /private/var/folders \( -name com.apple.dock.launchpad -a -user $USER \) 2> /dev/null)/db/db "DELETE FROM apps WHERE title='IntelliJ IDEA';" && killall Dock
 ```
 
+### Mac系统基于某个文件夹所在路径快速打开一个终端
+
+<img src="./pic/003_基于某个文件夹快速打开一个新的命令行窗口.png">
+
+ 	1. 选中目标文件夹右击
+ 	2. 选择【服务】
+ 	3. 选择【New iterm2 window Here】
+
+
+
 
 
 ## 其它
@@ -95,6 +105,12 @@ $> brew  install postman
   ![001前往指定目录](./pic/001前往指定目录.png)
 
 * 
+
+
+
+ 1. 
+
+    
 
 
 
