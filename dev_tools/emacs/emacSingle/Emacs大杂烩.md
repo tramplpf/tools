@@ -177,3 +177,13 @@ Mac 系统使用Emacs需要注意的地方
    比如：iShot 截图软件
 
 2. 使用Emacs强烈建议安装auto-save插件，否则辛辛苦苦写的内容会因为自己的不小心而全部丢失
+
+
+
+
+
+
+
+## 参考资料：
+
+[学习Emacs系列教程](https://www.cnblogs.com/robertzml/archive/2010/03/31/1701374.html) :  https://www.cnblogs.com/robertzml/tag/Emacs/
