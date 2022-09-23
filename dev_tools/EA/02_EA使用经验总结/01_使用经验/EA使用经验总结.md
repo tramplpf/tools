@@ -61,3 +61,26 @@ Start---> Preferences --> General ---> 修改Author 的取值为自己的名字�
 2. 绘制连接两个Action 之间连线的方法：
 
    <img src="./pic/00_comm/007_查看属性的设置方式.png" align="left">
+
+选中箭头开始的Action ，然后将箭头拉到终止的Action， 然后右键弹出如图所示，选择 ControlFlow ，然后将汇总的图线通过Ctrl +  Q 进行折角的调整，按照ctrl + Q, 然后在线条上会出现小方块，移动小方块到知道位置，然后放开ctrl + q 和鼠标，就建好一个折角了。 
+
+
+
+
+
+### 设置Note元素的显示
+
+\1. Note 的外观是可选择的，
+
+选择Note 元素，右键，选择Apperaence， 然后选择你想要的效果
+
+<img src="./pic/00_comm/008_Note外形显示.png" align="left">
+
+<img src="./pic/00_comm/008_Note外形显示_2.png" align="left">
+
+<img src="./pic/00_comm/008_Note外形显示_3.png" align="left">
+
+<img src="./pic/00_comm/008_Note外形显示_4.png" align="left">
+
+
+
