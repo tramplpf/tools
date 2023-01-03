@@ -1,0 +1,14 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/lpf/github/tools/dev_tools/emacs/studyemacs.org
+
+
+* 在打开emacs 的org 模式之后，如何退出该模式，而不退出emacs
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2022-06-25 六 15:02
+  :ARCHIVE_FILE: ~/github/tools/dev_tools/emacs/studyemacs.org
+  :ARCHIVE_OLPATH: 自己学习Emacs过程记录/学习Emacs过程中遇到的问题[/]
+  :ARCHIVE_CATEGORY: studyemacs
+  :END:
+  - 比如自己通过 c-x c-f 打开一个org文件之后，如何关闭该文件，而不关闭emacs

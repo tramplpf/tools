@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "msg": null,
+  "msgCode": null,
+  "data": {
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzI3NjM1OTMsInVzZXJfaWQiOjE0MywiaG9zcGl0YWxJZCI6MjEwLCJkZXB0SWQiOjIxOCwidXNlcl9rZXkiOiIyZmMxMzM3ZS1hNWNmLTQ3Y2MtYWI4Yy0wN2U0N2I5NjA3ZGYiLCJ1c2VybmFtZSI6ImRvY3RvcjIxMCJ9.CjdZ67KY9OWkkIXGnW9N1G-jty4mvreKFQkSbF1Bbf8",
+    "expires_in": 720
+  },
+  "count": 0,
+  "success": true
+}
