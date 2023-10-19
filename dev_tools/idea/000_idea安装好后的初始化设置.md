@@ -32,3 +32,64 @@ Settings---> General --->在右边的面板中选择 Indent guide 勾选， back
 
 
 
+
+
+## 设置常用的代码片段
+
+```
+comm 类和方法的注释
+/**
+ * 
+ * 
+ * @author lipf
+ * @date $date$ $time$
+ */
+```
+
+```
+dt  输入当前日期和时间，（windos下的搜狗输入法可以直接输入 sj）
+
+$date$ $time$
+```
+
+```
+note   xml 中输入当前时间
+<!-- $date$ $time$ lipf -->
+```
+
+```
+yy
+yyyymmdd格式的日期
+```
+
+```
+yt
+yyyymmdd格式的日期
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
