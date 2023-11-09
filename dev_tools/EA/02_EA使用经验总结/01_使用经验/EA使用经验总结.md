@@ -90,3 +90,15 @@ Start---> Preferences --> General ---> 修改Author 的取值为自己的名字�
 
 <img src="./pic/00_comm/009_设置多个节点为一个整体_v20231019.png" style="zoom:67%;" />
 
+
+
+## 在EA中打开我的电脑
+
+<img src="./pic/01_在EA中打开我的电脑_20231109224820.png"/>
+
+
+
+
+
+
+
