@@ -98,6 +98,10 @@ Start---> Preferences --> General ---> 修改Author 的取值为自己的名字�
 
 
 
+在EA中恢复Browser 
+
+快捷键 Ctrl +1
+
 
 
 
