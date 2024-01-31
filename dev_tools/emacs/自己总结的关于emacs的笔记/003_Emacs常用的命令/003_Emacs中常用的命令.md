@@ -76,6 +76,14 @@ M-x buffer-menu    查看当前所有可用的buffer， 可以打开其中的*sc
 
 
 
+## Emacs的窗口操作
+
+
+
+
+
+
+
 ## Lisp 相关
 
 在Emacs 中打开Scratch buffer 来编写并运行Lisp 程序，之后通过 C-x  C-e 来执行相关的Lisp 代码
