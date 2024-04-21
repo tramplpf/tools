@@ -1,5 +1,11 @@
 # EA 使用经验总结
 
+## EA中整体属性设置：
+
+[Start]-[Preferences ]
+
+
+
 ## 使用前设置
 
 ### EA 统一设置用户名
@@ -104,5 +110,98 @@ Start---> Preferences --> General ---> 修改Author 的取值为自己的名字�
 
 
 
+## EA中目录组织结构
+
+<img src="./pic/00_comm/015_EA中目录的组织方式.png" align="left" width="500"/>
 
 
+
+## 设置EA导出高清图片
+
+默认情况下，使用EA导出的图片，比较模块，通过设置导出的百分比以及最大内存限制，可以提高图片的清晰度。 
+
+模糊图片如下： 图片大小是  31.8 KB 
+
+<img src="./pic/00_comm/010_ea_old_v20240421.jpg" align="left" width="600">
+
+
+
+高清图片效果如下：图片大小是：149 KB。  
+
+<img src="./pic/00_comm/010_ea_new_V20240421.jpg" align="left" width="600"/>
+
+### 设置方法如下
+
+在搜索框中，输入Options，选中Preferences：
+
+或者直接通过快捷键： 【Ctrl + F9】. 
+
+<img src="./pic/00_comm/012_设置EA来提高图片的清晰度_V20240421.png" align="left"/>
+
+设置Diagram 
+
+<img src="./pic/00_comm/011_设置EA来提高图片的清晰度_V20240421.png" align="left"/>
+
+
+
+### 导出图片方式一
+
+框选要导出的组件，ctrl+c， 在word文档中，执行Ctrl +V 
+
+### 导出图片方式二
+
+[publish]-[save]-[save to file]
+
+<img src="./pic/00_comm/013_设置导出图片_V20240421.png" align="left"/>
+
+### 导出图片方式三：
+
+参考： https://blog.csdn.net/qq_32068809/article/details/130702257
+
+导出xml文件的时候，设置XML类型为UMLxxx。并且勾选【生成图的图像】并指定图片的格式。
+
+【publish】-【publish】-【Other Formats】
+
+<img src="./pic/00_comm/014_导出图片01_V20240421.png" align="left">
+
+在【Publish Model Package】弹框中，选中【Generate Diagram ...】
+
+<img src="./pic/00_comm/014_导出图片02_V20240421.png" align="left"/>
+
+导出效果如下:（图片清晰度不高）
+
+<img src="./pic/00_comm/014_导出图片03_V20240421.png" align="left"/>
+
+
+
+
+
+### 导出图片方式四：导出pdf再转成svg矢量图
+
+参考： https://community.sparxsystems.com/community-resources/706-svg-diagram-export-add-in
+
+
+
+
+
+
+
+
+
+## TODO
+
+* EA如何安装插件，以及导出svg矢量图 
+* 
+
+
+
+## 变更记录
+
+| 日期              | 类型 | 操作内容           | 备注                                              | 接下来验证的内容                  | 操作用户 |
+| ----------------- | ---- | ------------------ | ------------------------------------------------- | --------------------------------- | -------- |
+| 2024-04-21 星期日 | A    | 使用EA导出高清图片 | 通过设置可以导出高清图片，不过还不能导出矢量图svg | EA如何安装插件，以及导出svg矢量图 | lipf     |
+|                   |      |                    |                                                   |                                   |          |
+|                   |      |                    |                                                   |                                   |          |
+|                   |      |                    |                                                   |                                   |          |
+
+类型说明： C：创建    A： 最近内容    U：修改内容     R：解决疑惑点
