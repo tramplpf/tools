@@ -71,6 +71,16 @@ yyyymmdd格式的日期
 
 
 
+## idea不合并import
+
+要在[IntelliJ IDEA**](https://m.baidu.com/s?word=IntelliJ IDEA&sa=re_dqa_zy)中避免自动合并import语句，可以通过以下步骤进行设置：12
+
+1. 打开IDEA开发工具，点击菜单栏中的“File”按钮。
+2. 在弹出的菜单中，选择“Settings”按钮。
+3. 在设置界面中，点击“Editor”按钮，然后选择“Code Style”。
+4. 在代码风格设置中，选择“Java”选项，然后在右侧切换到“Imports”选项。
+5. 在“Imports”设置中，调整“Class count to use import with ‘*’”和“Names count to use static import with ‘*’”两项的值，使之足够大，以避免IDEA自动合并import语句。
+6. 调整完成后，应用设置并保存。
 
 
 
@@ -78,6 +88,27 @@ yyyymmdd格式的日期
 
 
 
+
+
+
+
+## idea设置打开的文件数量
+
+要设置[IDEA**](https://m.baidu.com/s?word=IDEA&sa=re_dqa_zy)中同时打开的文件数量，可以按照以下步骤操作：12
+
+1.打开IDEA，进入“File”菜单，选择“Settings”（对于Mac用户，可能是“Intellij IDEA”->“Preferences”）。
+
+2.在设置界面中，导航至“Editor”->“General”->“Editor Tabs”。
+
+3.在“Editor Tabs”设置中，找到“Tab Closing Policy”的“Tab Limit”选项。
+
+4.在此处，您可以修改默认的限制文件数量（默认为10个）。
+
+5.根据需要调整数字，例如，如果您希望同时打开更多文件，可以将数字设置为更高的值，如100或更多。
+
+6.完成设置后，保存更改并关闭设置窗口。
+
+请注意，这些步骤假设您想要调整的是IDEA中同时打开的文件数量限制。如果您遇到的是操作系统级别的文件打开限制，那么需要按照操作系统不同，通过修改配置文件或使用命令行工具（如ulimit）来进行调整。
 
 
 

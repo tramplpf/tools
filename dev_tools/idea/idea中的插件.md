@@ -1,3 +1,11 @@
+搜索IDEA的插件信息：
+
+
+
+
+
+
+
 Rainbow Brackets-5.12 不同层次的括号显示不同的颜色
 mybatis log plugin 把 mybatis 输入的 sql 日志还原成完成的 sql 语句
 free mybatis plugin：
@@ -21,3 +29,16 @@ GenerateAllSetter 帮助我们生成一个对象的所有 setter 方法
 
 对 mapstruct 框架的支持
 MapStruct support for IntelliJ IDEA
+
+
+
+
+
+**GenerateAllSetter**  
+
+安装完插件之后，在创建的对象上，按快捷键下：alt + enter。
+
+在弹出的窗口中选择：Generate all setter with default value。
+
+
+
